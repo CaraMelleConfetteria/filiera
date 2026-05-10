@@ -293,7 +293,7 @@ END:VCARD`;
         const blob = new Blob([vcfData], { type: "text/vcard" });
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = "lim-chocolate.vcf";
+        a.download = "Lim-Chocolate.vcf";
         a.click();
       });
     }
