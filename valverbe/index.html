@@ -282,7 +282,7 @@ END:VCARD`;
         const blob = new Blob([vcfData], { type: "text/vcard" });
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = "stefano-marchisio.vcf";
+        a.download = "valverbe.vcf";
         a.click();
       });
     }
